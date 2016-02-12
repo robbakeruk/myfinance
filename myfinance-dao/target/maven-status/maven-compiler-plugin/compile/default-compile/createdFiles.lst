@@ -1,0 +1,4 @@
+org\myfinance\entity\Category.class
+org\myfinance\dao\CategoryDao.class
+org\myfinance\dao\TransactionDao.class
+org\myfinance\entity\Transaction.class

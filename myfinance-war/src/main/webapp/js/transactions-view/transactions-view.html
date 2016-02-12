@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4">
+        <h2>Transactions</h2>
+    </div>
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Source</th>
+        <th>Amount</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="t in transactions">
+        <td>{{ t.id }}</td>
+        <td>{{ t.description }}</td>
+        <td>{{ t.date | date:'d MMMM, y' }}</td>
+        <td>{{ t.source }}</td>
+        <td align="right">{{ t.amount | number:2 }}</td>
+        <td>
+            <button ng-repeat="c in categories" type="button" ng-class="{'btn-primary': t.categoryId != c.id, 'btn-success': t.categoryId == c.id}" ng-click="tagTransaction(t, c)">{{ c.name }}</button>
+        </td>
+    </tr>
+    </tbody>
+</table>

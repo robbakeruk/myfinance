@@ -1,0 +1,3 @@
+org\myfinance\domain\Category.class
+org\myfinance\domain\Transaction.class
+org\myfinance\domain\Summary.class

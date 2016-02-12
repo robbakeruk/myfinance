@@ -1,0 +1,17 @@
+org.myfinance:myfinance-domain:jar:1.0-SNAPSHOT
+\- org.hibernate:hibernate-entitymanager:jar:4.1.6.Final:compile
+   +- org.jboss.logging:jboss-logging:jar:3.1.0.GA:compile
+   +- org.hibernate:hibernate-core:jar:4.1.6.Final:compile
+   |  +- antlr:antlr:jar:2.7.7:compile
+   |  +- (org.jboss.logging:jboss-logging:jar:3.1.0.GA:compile - omitted for duplicate)
+   |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+   |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+   |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+   |  +- (org.javassist:javassist:jar:3.15.0-GA:compile - omitted for duplicate)
+   |  \- (org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final:compile - omitted for duplicate)
+   +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final:compile
+   +- dom4j:dom4j:jar:1.6.1:compile
+   +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+   +- org.javassist:javassist:jar:3.15.0-GA:compile
+   \- org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final:compile
+      \- (org.jboss.logging:jboss-logging:jar:3.1.0.CR2:compile - omitted for conflict with 3.1.0.GA)

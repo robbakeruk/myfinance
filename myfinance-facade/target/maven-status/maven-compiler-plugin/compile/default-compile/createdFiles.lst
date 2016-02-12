@@ -1,0 +1,3 @@
+org\myfinance\facade\SummaryFacade.class
+org\myfinance\facade\ReferenceDataFacade.class
+org\myfinance\facade\TransactionFacade.class

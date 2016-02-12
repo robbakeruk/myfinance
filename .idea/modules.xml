@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myfinance.iml" filepath="$PROJECT_DIR$/myfinance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfinance-dao/myfinance-dao.iml" filepath="$PROJECT_DIR$/myfinance-dao/myfinance-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfinance-domain/myfinance-domain.iml" filepath="$PROJECT_DIR$/myfinance-domain/myfinance-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfinance-facade/myfinance-facade.iml" filepath="$PROJECT_DIR$/myfinance-facade/myfinance-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfinance-repository/myfinance-repository.iml" filepath="$PROJECT_DIR$/myfinance-repository/myfinance-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfinance-service/myfinance-service.iml" filepath="$PROJECT_DIR$/myfinance-service/myfinance-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfinance-war/myfinance-war.iml" filepath="$PROJECT_DIR$/myfinance-war/myfinance-war.iml" />
+    </modules>
+  </component>
+</project>
