@@ -5,10 +5,10 @@ angular.module('myFinanceApp.homeView', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {
     templateUrl: 'js/home-view/home-view.html',
-    controller: 'HomeViewCtrl'
+    controller: 'homeViewCtrl'
   });
 }])
 
-.controller('HomeViewCtrl', [function() {
+.controller('homeViewCtrl', [function() {
 
 }]);

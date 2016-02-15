@@ -5,11 +5,11 @@ angular.module('myFinanceApp.transactionsView', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/transactions', {
     templateUrl: 'js/transactions-view/transactions-view.html',
-    controller: 'TransactionsViewCtrl'
+    controller: 'transactionsViewCtrl'
   });
 }])
 
-.controller('TransactionsViewCtrl', ['$scope', '$resource', 'transactionService',
+.controller('transactionsViewCtrl', ['$scope', '$resource', 'transactionService',
 
     function($scope, $resource, transactionService) {
         transactionService.query({}, function(allTransactions){

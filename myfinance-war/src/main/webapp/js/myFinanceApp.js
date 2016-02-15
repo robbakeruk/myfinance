@@ -5,7 +5,8 @@ var app = angular.module("myFinanceApp", [
     'ngRoute',
     'myFinanceApp.homeView',
     'myFinanceApp.transactionsView',
-    'myFinanceApp.summaryView'
+    'myFinanceApp.summaryView',
+    'myFinanceApp.playView'
 ]);
 
 app.config(['$httpProvider', function($httpProvider) {

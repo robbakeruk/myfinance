@@ -4,3 +4,19 @@
  width: 500px;
  height: 500px;
 }
+
+.example {
+ width: 50%;
+ background-color: lightblue;
+ }
+
+.example-mouseenter {
+ width: 50%;
+ background-color: green;
+ }
+
+ .header {
+ font-style: italic;
+ color: white;
+ padding-left: 30px;
+ }

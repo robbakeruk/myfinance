@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="225" started-at="2016-02-08T15:58:03Z" finished-at="2016-02-08T15:58:03Z">
+  <suite name="Command line suite" duration-ms="221" started-at="2016-02-15T10:20:11Z" finished-at="2016-02-15T10:20:11Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="225" started-at="2016-02-08T15:58:03Z" finished-at="2016-02-08T15:58:03Z">
+    <test name="Command line test" duration-ms="221" started-at="2016-02-15T10:20:11Z" finished-at="2016-02-15T10:20:11Z">
       <class name="org.myfinance.service.unit.test.SummaryServiceTest">
-        <test-method status="PASS" signature="initMocks()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="initMocks" is-config="true" duration-ms="188" started-at="2016-02-08T15:58:03Z" finished-at="2016-02-08T15:58:03Z">
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="initMocks" is-config="true" duration-ms="186" started-at="2016-02-15T10:20:11Z" finished-at="2016-02-15T10:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initMocks -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="test" duration-ms="18" started-at="2016-02-08T15:58:03Z" finished-at="2016-02-08T15:58:03Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="test" duration-ms="18" started-at="2016-02-15T10:20:11Z" finished-at="2016-02-15T10:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="initMocks()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="initMocks" is-config="true" duration-ms="1" started-at="2016-02-08T15:58:03Z" finished-at="2016-02-08T15:58:03Z">
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="initMocks" is-config="true" duration-ms="1" started-at="2016-02-15T10:20:11Z" finished-at="2016-02-15T10:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initMocks -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="test2" duration-ms="0" started-at="2016-02-08T15:58:03Z" finished-at="2016-02-08T15:58:03Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:org.myfinance.service.unit.test.SummaryServiceTest@5a01ccaa]" name="test2" duration-ms="1" started-at="2016-02-15T10:20:11Z" finished-at="2016-02-15T10:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->

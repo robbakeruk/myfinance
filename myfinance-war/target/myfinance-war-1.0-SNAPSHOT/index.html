@@ -17,7 +17,10 @@
     <script src="js/transactionService.js"></script>
     <script src="js/summaryService.js"></script>
     <script src="js/myFinanceCtrl.js"></script>
+    <script src="js/home-view/home-view.js"></script>
     <script src="js/transactions-view/transactions-view.js"></script>
+    <script src="js/summary-view/summary-view.js"></script>
+    <script src="js/summary-view/summary-directive.js"></script>
 </head>
 <body>
 <div ng-controller="myFinanceCtrl">
@@ -39,48 +42,14 @@
     <br />
 
     <div class="container">
-        <a href="#/transactions">view1</a>
-        <ul class="nav nav-pills">
-            <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-            <li><a data-toggle="pill" href="#/transactions">Transactions</a></li>
-            <li><a data-toggle="pill" href="#menu2">Summary</a></li>
+        <ul class="nav nav-tabs">
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/transactions">Transactions</a></li>
+            <li><a href="#/summary">Summary</a></li>
         </ul>
 
         <div id="content" ng-view></div>
 
-        <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <!--<div id="menu1" class="tab-pane fade">-->
-
-            <!--</div>-->
-            <div id="menu2" class="tab-pane fade">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>Summary</h2>
-                    </div>
-                </div>
-                <select ng-model="selectedDate" ng-change="selectedDateChanged()" >
-                    <option ng-repeat="(key, value) in summaryDates" value="{{key}}">{{value | date:'MMMM, y' }}</option>
-                </select>
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th>Category</th>
-                        <th>Amount</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr ng-repeat="s in summaryRows">
-                        <td>{{ s.category }}</td>
-                        <td>{{ s.amount | number:2 }}</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
     </div>
 </div>
 
